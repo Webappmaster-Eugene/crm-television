@@ -1,0 +1,13 @@
+# GitHub Pages собирает сайт через Jekyll. Документация сторонних пакетов
+# в vendor содержит разметку Liquid, на которой сборка падает.
+exclude:
+  - vendor
+  - temp
+  - tmp
+  - tests
+  - vagrant
+  - runtime
+  - composer.json
+  - composer.lock
+  - composer.phar
+  - Vagrantfile
