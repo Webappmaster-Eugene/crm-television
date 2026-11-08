@@ -113,7 +113,7 @@ $config = [
 		],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'aaaaaaaasdqwesda1234dsxcvsdfgksfdtg0234234edfsdfsdfqwer',
+            'cookieValidationKey' => 'change_me_to_random_string',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
